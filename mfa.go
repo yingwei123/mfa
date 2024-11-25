@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	gomail "github.com/yingwei123/mfa/client/email"
+	gomail "github.com/yingwei123/mfa/email"
 )
 
 type MFACode struct {

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"text/template"
 
-	d "github.com/yingwei123/mfa/client/email/default"
+	d "github.com/yingwei123/mfa/email/default"
 
 	gomail "gopkg.in/gomail.v2"
 )

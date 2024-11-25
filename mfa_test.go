@@ -1,4 +1,4 @@
-package client
+package mfa
 
 import (
 	"context"
@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yingwei123/mfa/client/email"
-	"github.com/yingwei123/mfa/client/mockStruct"
+	"github.com/yingwei123/mfa/email"
+	"github.com/yingwei123/mfa/mockStruct"
 
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/gomail.v2"

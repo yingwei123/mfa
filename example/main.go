@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/yingwei123/mfa/client"
+	"github.com/yingwei123/mfa"
 )
 
 const codeDuration = 1 * time.Minute
@@ -18,7 +18,7 @@ const smtpServerPort = 587
 
 // example of how to use the mfa client
 func main() {
-	mfaClient, err := client.CreateMFAClient( //create the mfa client
+	mfaClient, err := mfa.CreateMFAClient( //create the mfa client
 		codeDuration,
 		clientEmail,
 		clientPassword,

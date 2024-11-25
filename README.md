@@ -13,7 +13,7 @@ A Go package that provides a simple and secure way to implement email-based Mult
 
 ## Installation:
 ```bash
-go get https://github.com/yingwei123/mfa-email-client
+go get github.com/yingwei123/mfa-email-client
 ```
 
 ## Quick Start Example:

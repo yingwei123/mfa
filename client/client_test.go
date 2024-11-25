@@ -3,11 +3,12 @@ package client
 import (
 	"context"
 	"errors"
-	"mfa/client/email"
-	"mfa/client/mockStruct"
 	"sync"
 	"testing"
 	"time"
+
+	"github.com/yingwei123/mfa/client/email"
+	"github.com/yingwei123/mfa/client/mockStruct"
 
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/gomail.v2"

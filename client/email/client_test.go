@@ -6,7 +6,7 @@ import (
 
 	"testing"
 
-	"mfa/client/mockStruct"
+	"github.com/yingwei123/mfa/client/mockStruct"
 
 	"github.com/stretchr/testify/assert"
 	gomail "gopkg.in/gomail.v2"

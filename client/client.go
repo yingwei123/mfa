@@ -5,9 +5,10 @@ import (
 	"crypto/rand"
 	"errors"
 	"fmt"
-	gomail "mfa/client/email"
 	"sync"
 	"time"
+
+	gomail "github.com/yingwei123/mfa/client/email"
 )
 
 type MFACode struct {

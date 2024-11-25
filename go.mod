@@ -1,4 +1,4 @@
-module mfa
+module github.com/yingwei123/mfa
 
 go 1.23.1
 

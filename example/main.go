@@ -3,8 +3,9 @@ package main
 import (
 	"context"
 	"fmt"
-	"mfa/client"
 	"time"
+
+	"github.com/yingwei123/mfa/client"
 )
 
 const codeDuration = 1 * time.Minute

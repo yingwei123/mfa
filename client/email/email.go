@@ -4,10 +4,11 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	d "mfa/client/email/default"
 	"net/mail"
 	"strings"
 	"text/template"
+
+	d "github.com/yingwei123/mfa/client/email/default"
 
 	gomail "gopkg.in/gomail.v2"
 )

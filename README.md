@@ -22,13 +22,13 @@ package main
 
 import (
     "context"
-    "mfa/client"
+    "mfa"
     "time"
 )
 
 func main() {
     // Create a new MFA client
-    mfaClient, err := client.CreateMFAClient(
+    mfaClient, err := mfa.CreateMFAClient(
         5*time.Minute,           // Code duration
         "your@email.com",        // SMTP client email
         "your-password",         // SMTP password
